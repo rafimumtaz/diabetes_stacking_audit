@@ -3,6 +3,15 @@ import json
 import joblib
 import pandas as pd
 import streamlit as st
+import sys
+import sklearn
+import lightgbm
+import joblib
+
+st.write("Python:", sys.version)
+st.write("scikit-learn:", sklearn.__version__)
+st.write("LightGBM:", lightgbm.__version__)
+st.write("Joblib:", joblib.__version__)
 
 ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT / 'models' / 'stacking_diabetes.joblib'
