@@ -1,0 +1,10 @@
+# Disarankan Python 3.11. Versi diselaraskan dengan artefak model yang disertakan.
+pandas==2.2.3
+numpy==2.3.5
+scikit-learn==1.8.0
+lightgbm==4.6.0
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+scipy>=1.13,<2.0
+joblib>=1.4,<2.0
+streamlit>=1.40,<2.0

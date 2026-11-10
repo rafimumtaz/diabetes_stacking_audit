@@ -1,0 +1,299 @@
+{
+  "target": "Target",
+  "classes": [
+    "Prediabetic",
+    "Type 1 Diabetes",
+    "Type 2 Diabetes"
+  ],
+  "features": [
+    {
+      "name": "Genetic Markers",
+      "type": "categorical",
+      "options": [
+        "Negative",
+        "Positive"
+      ],
+      "default": "Negative"
+    },
+    {
+      "name": "Autoantibodies",
+      "type": "categorical",
+      "options": [
+        "Negative",
+        "Positive"
+      ],
+      "default": "Negative"
+    },
+    {
+      "name": "Family History",
+      "type": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "Yes"
+    },
+    {
+      "name": "Environmental Factors",
+      "type": "categorical",
+      "options": [
+        "Absent",
+        "Present"
+      ],
+      "default": "Absent"
+    },
+    {
+      "name": "Insulin Levels",
+      "type": "numeric",
+      "min": 5.0,
+      "max": 49.0,
+      "median": 18.0,
+      "mean": 20.360811394044024
+    },
+    {
+      "name": "Age",
+      "type": "numeric",
+      "min": 5.0,
+      "max": 79.0,
+      "median": 39.0,
+      "mean": 38.59085023737592
+    },
+    {
+      "name": "BMI",
+      "type": "numeric",
+      "min": 15.0,
+      "max": 39.0,
+      "median": 26.0,
+      "mean": 25.80300881681978
+    },
+    {
+      "name": "Physical Activity",
+      "type": "categorical",
+      "options": [
+        "High",
+        "Low",
+        "Moderate"
+      ],
+      "default": "Low"
+    },
+    {
+      "name": "Dietary Habits",
+      "type": "categorical",
+      "options": [
+        "Healthy",
+        "Unhealthy"
+      ],
+      "default": "Unhealthy"
+    },
+    {
+      "name": "Blood Pressure",
+      "type": "numeric",
+      "min": 90.0,
+      "max": 149.0,
+      "median": 117.0,
+      "mean": 117.81336703865837
+    },
+    {
+      "name": "Cholesterol Levels",
+      "type": "numeric",
+      "min": 150.0,
+      "max": 299.0,
+      "median": 206.0,
+      "mean": 211.24249337197114
+    },
+    {
+      "name": "Waist Circumference",
+      "type": "numeric",
+      "min": 28.0,
+      "max": 49.0,
+      "median": 35.0,
+      "mean": 35.81953264689562
+    },
+    {
+      "name": "Blood Glucose Levels",
+      "type": "numeric",
+      "min": 100.0,
+      "max": 199.0,
+      "median": 125.0,
+      "mean": 133.48547999260126
+    },
+    {
+      "name": "Ethnicity",
+      "type": "categorical",
+      "options": [
+        "High Risk",
+        "Low Risk"
+      ],
+      "default": "High Risk"
+    },
+    {
+      "name": "Socioeconomic Factors",
+      "type": "categorical",
+      "options": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "default": "High"
+    },
+    {
+      "name": "Smoking Status",
+      "type": "categorical",
+      "options": [
+        "Non-Smoker",
+        "Smoker"
+      ],
+      "default": "Non-Smoker"
+    },
+    {
+      "name": "Alcohol Consumption",
+      "type": "categorical",
+      "options": [
+        "High",
+        "Low",
+        "Moderate"
+      ],
+      "default": "Low"
+    },
+    {
+      "name": "Glucose Tolerance Test",
+      "type": "categorical",
+      "options": [
+        "Abnormal",
+        "Normal"
+      ],
+      "default": "Abnormal"
+    },
+    {
+      "name": "History of PCOS",
+      "type": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "No"
+    },
+    {
+      "name": "Previous Gestational Diabetes",
+      "type": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "No"
+    },
+    {
+      "name": "Pregnancy History",
+      "type": "categorical",
+      "options": [
+        "Complications",
+        "Normal"
+      ],
+      "default": "Normal"
+    },
+    {
+      "name": "Weight Gain During Pregnancy",
+      "type": "numeric",
+      "min": 5.0,
+      "max": 39.0,
+      "median": 20.0,
+      "mean": 20.361119674455885
+    },
+    {
+      "name": "Pancreatic Health",
+      "type": "numeric",
+      "min": 20.0,
+      "max": 99.0,
+      "median": 56.0,
+      "mean": 56.102780689315004
+    },
+    {
+      "name": "Pulmonary Function",
+      "type": "numeric",
+      "min": 60.0,
+      "max": 89.0,
+      "median": 76.0,
+      "mean": 76.20161538935815
+    },
+    {
+      "name": "Cystic Fibrosis Diagnosis",
+      "type": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "Yes"
+    },
+    {
+      "name": "Steroid Use History",
+      "type": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "Yes"
+    },
+    {
+      "name": "Genetic Testing",
+      "type": "categorical",
+      "options": [
+        "Negative",
+        "Positive"
+      ],
+      "default": "Positive"
+    },
+    {
+      "name": "Neurological Assessments",
+      "type": "numeric",
+      "min": 1.0,
+      "max": 3.0,
+      "median": 2.0,
+      "mean": 1.8253283186386338
+    },
+    {
+      "name": "Liver Function Tests",
+      "type": "categorical",
+      "options": [
+        "Abnormal",
+        "Normal"
+      ],
+      "default": "Normal"
+    },
+    {
+      "name": "Digestive Enzyme Levels",
+      "type": "numeric",
+      "min": 30.0,
+      "max": 99.0,
+      "median": 58.0,
+      "mean": 59.40033294284481
+    },
+    {
+      "name": "Urine Test",
+      "type": "categorical",
+      "options": [
+        "Glucose Present",
+        "Ketones Present",
+        "Normal",
+        "Protein Present"
+      ],
+      "default": "Normal"
+    },
+    {
+      "name": "Birth Weight",
+      "type": "numeric",
+      "min": 2500.0,
+      "max": 4499.0,
+      "median": 3318.0,
+      "mean": 3334.212651828103
+    },
+    {
+      "name": "Early Onset Symptoms",
+      "type": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "No"
+    }
+  ]
+}

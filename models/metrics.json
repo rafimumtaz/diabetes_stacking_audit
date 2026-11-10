@@ -1,0 +1,14 @@
+{
+  "accuracy": 1.0,
+  "precision_macro": 1.0,
+  "recall_macro": 1.0,
+  "f1_macro": 1.0,
+  "test_rows": 3244,
+  "train_rows": 12975,
+  "classes": [
+    "Prediabetic",
+    "Type 1 Diabetes",
+    "Type 2 Diabetes"
+  ],
+  "note": "Holdout acak dari dataset Kaggle; bukan validasi klinis."
+}
